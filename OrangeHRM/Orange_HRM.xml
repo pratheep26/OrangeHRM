@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM" verbose="2">
+
+<test name="Login To Application">
+<classes>
+<class name="testCases_POM.Login_TC"></class>
+</classes>
+</test>
+
+<test name="Update My Info">
+<classes>
+<class name="testCases_POM.UpdateMyInfo_TC"></class>
+</classes>
+</test>
+
+<!-- <test name="Login To Application">
+	<classes>
+		<class name="loginPageUsingExcelSheet.Login_Page"></class>
+	</classes>
+</test> -->
+
+<!-- <test name="Login To Application">
+	<classes>
+		<class name="loginPageUsingDaraProviderTagUsingDDFW.Login_Page"></class>
+	</classes>
+</test> -->
+
+	<!-- <test name="Both Correct">
+		<parameter name="username" value="Admin"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="loginPageUsingParameterTagUsingDDFW.Both_Correct"></class>
+		</classes>
+	</test>
+	<test name="Both Incorrect">
+		<parameter name="username" value="adminn"></parameter>
+		<parameter name="password" value="admin1234"></parameter>
+		<classes>
+			<class name="loginPageUsingParameterTagUsingDDFW.Both_Incorrect"></class>
+		</classes>
+	</test>
+	<test name="Correct Password">
+		<parameter name="username" value="adminn"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="loginPageUsingParameterTagUsingDDFW.Correct_Password"></class>
+		</classes>
+	</test>
+	<test name="Correct Username">
+		<parameter name="username" value="Admin"></parameter>
+		<parameter name="password" value="admin1234"></parameter>
+		<classes>
+			<class name="loginPageUsingParameterTagUsingDDFW.Correct_Username"></class>
+		</classes>
+	</test> -->
+
+</suite>
